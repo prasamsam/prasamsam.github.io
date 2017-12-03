@@ -101,6 +101,13 @@ button {
 	border: none;
 	outline: none;
 }
+.logIn{
+	text-decoration-color: #fff;
+	text-transform: capitalize;
+}
+#shoppingcart{
+	padding-bottom: 10%;
+}
 textarea,
 select,
 .tg-select select,
@@ -363,6 +370,18 @@ address { font-style: italic; }
 	text-transform: capitalize;
 	font:400 16px/60px 'Work Sans', Arial, Helvetica, sans-serif;
 }
+.tg-btnlogin{
+	color: #fff;
+	padding: 0 30px;
+	background: none;
+	position:relative;
+	text-align:center;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #ffffff;
+	text-transform: capitalize;
+	font:400 14px/48px 'Work Sans', Arial, Helvetica, sans-serif;
+}
 .tg-btnregular{
 	color: #484848;
 	padding: 0 60px;
@@ -375,6 +394,25 @@ address { font-style: italic; }
 	border: 1px solid #484848;
 	text-transform: capitalize;
 	font:400 14px/48px 'Work Sans', Arial, Helvetica, sans-serif;
+}
+.tg-btnregular-sm{
+
+	color: #484848;
+	padding: 0 15px;
+	background: #fff;
+	position:relative;
+	text-align:center;
+	border-radius: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #484848;
+	text-transform: capitalize;
+	font:400 14px/48px 'Work Sans', Arial, Helvetica, sans-serif;
+}
+.tg-btnregular-sm:hover{
+	text-transform: capitalize;
+	transition-delay: 10ms;
+	text-decoration-color: #ffffff;
 }
 .tg-btnregular.tg-active,
 .tg-btnregular:hover,
@@ -786,7 +824,7 @@ body.tg-home .tg-main{padding: 0;}
 }
 .tg-languagesdropdown{
 	float: right;
-	margin: 10px 0;
+	margin: 6px 0;
 }
 .tg-addressbar{float: left;}
 .tg-addressdropdown{float: left;}
@@ -1340,7 +1378,7 @@ body.tg-home .tg-main{padding: 0;}
 }
 .tg-title h3{
 	margin: 0;
-	font-size: 20px;
+	font-size: 19px;
 	line-height: 23px;
 	overflow: hidden;
 	white-space: nowrap;
@@ -2457,7 +2495,7 @@ blockquote{
 .tg-pagetitle .container{position: relative;}
 .tg-titleandbtns{float: left;}
 .tg-titleandbtns h1{
-	margin: 0;
+	margin:0 230px 0 0;
 	color: #fff;
 	font-size: 34px;
 	font-weight: 300;
@@ -5437,13 +5475,83 @@ body.tg-comingsoon-page .tg-copyright{
 	float:left;
 	padding:20px 0 0;
 }
+/*Log In*/
+#loginbtn{
+    padding-left: 1%;
+}
+.tg-loginbanner{
+	height:100%;
+	background:#ffffff;
+}
+.tg-logininfo{
+	padding-top: 3%;
+}
+#tg-logintext h1{
+	padding-top: 5%;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	text-align: center;
+	font-weight: lighter;
+}
+#forgotpassword{
+	margin-bottom: 3%;
+	margin-left:-5%;
+}
+.logfooter{
+	margin-top: 5%;
+	text-align: center;
+}
+#loginfooter{
+	margin-top: 10%;
+	text-decoration-color: #000000;
+}
+.dropdown-menu{
+    width:150%;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
 
+/*Signup*/
+#tg-signuptext h1{
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	text-align: center;
+	font-weight: lighter;
+}
+/*User Portal*/
+#userabn{
+	padding-top:3%;
+	padding-left: 15%;
+}
+.tg-serviceinfo{
+	width: 100%;
+	float: left;
+	font-size: 13px;
+	line-height: 16px;
+	list-style: none;
+}
+.tg-serviceinfo li{
+	float: left;
+	position: relative;
+	line-height: inherit;
+	list-style-type: none;
+}
+.tg-serviceinfo li + li{padding: 0 0 0 20px;}
 
+.tg-serviceinfo li a{color: #484848;}
 
-
-
-
-
+ul.tg-serviceinfo li#userabn a{
+	color: #574586;
+	font-weight: bold;
+}
+ul.tg-serviceinfo li#userabn a:hover{
+	text-decoration:underline ;
+}
+ul.tg-serviceinfo li#tg-bnamesearch{
+	margin-right:15%;
+}
 
 
 
