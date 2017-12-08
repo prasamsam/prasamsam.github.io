@@ -5552,7 +5552,19 @@ ul.tg-serviceinfo li#userabn a:hover{
 ul.tg-serviceinfo li#tg-bnamesearch{
 	margin-right:15%;
 }
-
+.servicetitle h3{
+	line-height: normal;
+}
+.tg-addnav ul.userdropdown{
+	width:auto;
+}
+/*home v2*/
+.searchservice{
+	margin-top: 2%;
+}
+.packagesection{
+	margin-bottom: 3%;
+}
 
 
 
